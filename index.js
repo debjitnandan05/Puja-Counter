@@ -1,3 +1,9 @@
+
+setTimeout( function(){
+    document.getElementById("audio").play();
+    console.log("music on");
+},3000);
+
 const d=document.getElementById("days");
 let h=document.getElementById('hours');
 let m=document.getElementById('minutes');
@@ -31,3 +37,7 @@ function timeFormat(time){
 
 counter();
 setInterval(counter,1000);
+
+
+
+
