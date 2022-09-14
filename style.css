@@ -13,14 +13,12 @@ body{
     background-size: cover;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
     height: 100vh;
     width: 100vw;
     font-family: 'Nunito Sans', sans-serif;
-   /* margin: 0; */
-   /* color: antiquewhite; */
+   
 
 }
 h1{
@@ -54,8 +52,7 @@ justify-content: center;
     border: 1px solid rgba(255, 255, 255, 0.3) ;
     box-shadow: 3px 3px 20px rgba(0,0,0,0.3);
     color: aliceblue;
-    /* display: flex;
-    flex-wrap: wrap; */
+    
     
 }
 
@@ -80,9 +77,17 @@ justify-content: center;
     border-radius: 15px;
     background: rgba(180, 180, 180, 0.2);
     overflow: hidden;
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(1px);
 }
+
+@media only screen and (max-width: 406px) {
+    .big-text {
+        font-size: 4rem;       
+        margin: 0 1rem;
+       
+    }
+  }
+
