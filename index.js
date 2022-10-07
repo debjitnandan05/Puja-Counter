@@ -24,7 +24,7 @@ function counter(){
     let sec = Math.floor(tSec)%60;
     //console.log(days,hour,min,sec);
 
-d.innerHTML= days;
+d.innerHTML=timeFormat(days);
 h.innerHTML=timeFormat(hour);
 m.innerHTML=timeFormat(min);
 s.innerHTML=timeFormat(sec);
