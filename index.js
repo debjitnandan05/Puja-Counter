@@ -2,7 +2,7 @@
 setTimeout( function(){
     document.getElementById("audio").play();
     console.log("music on");
-},3000);
+},1500);
 
 const d=document.getElementById("days");
 let h=document.getElementById('hours');
@@ -10,7 +10,7 @@ let m=document.getElementById('minutes');
 let s=document.getElementById('seconds');
 
 
-let durgapuja='1 Oct 2022';
+let durgapuja='20 Oct 2023';
 
 function counter(){
     let durgaPujaDate=new Date(durgapuja);
